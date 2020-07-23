@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import './Book.css';
 import { Link } from 'react-router-dom';
@@ -15,3 +16,15 @@ const Book = ({ title, author, imgURL }) => (
 );
 
 export default Book;
+
+Book.propTypes = {
+  author: PropTypes.string,
+  imgURL: PropTypes.string,
+  title: PropTypes.string,
+};
+
+Book.defaultProps = {
+  author: '',
+  imgURL: '',
+  title: '',
+};

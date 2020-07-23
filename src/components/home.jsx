@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchBooks } from '../api';
@@ -73,3 +74,16 @@ const mapDispatch = (dispatch) => ({
 });
 
 export default connect(mapState, mapDispatch)(Home);
+
+Home.propTypes = {
+  books: PropTypes.arrayOf(PropTypes.object),
+  fetchBooks: PropTypes.func.isRequired,
+  filterValue: PropTypes.string,
+  loading: PropTypes.bool.isRequired,
+  onFilterChange: PropTypes.func.isRequired,
+};
+
+Home.defaultProps = {
+  books: [],
+  filterValue: '',
+};

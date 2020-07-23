@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
+import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 import { createBook } from '../api';
@@ -85,3 +86,20 @@ const mapDispatch = (dispatch) => ({
 });
 
 export default connect(mapState, mapDispatch)(NewBook);
+
+NewBook.propTypes = {
+  author: PropTypes.string,
+  controlsDisabled: PropTypes.bool.isRequired,
+  imgURL: PropTypes.string,
+  onAuthorChange: PropTypes.func.isRequired,
+  onCreateBook: PropTypes.func.isRequired,
+  onImageURLChange: PropTypes.func.isRequired,
+  onTitleChange: PropTypes.func.isRequired,
+  title: PropTypes.string,
+};
+
+NewBook.defaultProps = {
+  author: '',
+  imgURL: '',
+  title: '',
+};

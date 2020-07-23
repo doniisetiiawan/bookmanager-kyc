@@ -6,6 +6,6 @@ const Loading = ({ loading, children }) => (loading ? <p>loading...</p> : childr
 export default Loading;
 
 Loading.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.node.isRequired,
   loading: PropTypes.bool.isRequired,
 };

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
 import {
@@ -10,6 +11,7 @@ import logo from '../logo.svg';
 import './App.css';
 import Home from './home';
 import NewBook from './newBook';
+import BookDetails from './bookDetails';
 
 function App(props) {
   const { title } = props;
@@ -44,6 +46,11 @@ function App(props) {
                 path="/new"
                 component={NewBook}
               />
+              <Route
+                exact
+                path="/book/:title"
+                component={BookDetails}
+              />
             </Switch>
           </section>
         </section>
@@ -55,3 +62,7 @@ function App(props) {
 const mapState = (state) => state.app;
 const mapDispatch = () => ({});
 export default connect(mapState, mapDispatch)(App);
+
+App.propTypes = {
+  title: PropTypes.string.isRequired,
+};
