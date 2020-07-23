@@ -5,37 +5,37 @@ const BOOKS = [
     title: 'React 16 Essentials',
     author: 'Artemij Fedosejev',
     imgURL:
-      'https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/9781787126046%20(2).jpg',
+      'https://d3bxy9euw4e147.cloudfront.net/oscms-dev/media/documents/prealgebra_1.svg',
   },
   {
     title: 'Getting Started with React VR',
     author: 'John Gwinner',
     imgURL:
-      'https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/cover%20-%20Copy_8.png',
+        'https://d3bxy9euw4e147.cloudfront.net/oscms-dev/media/documents/prealgebra_1.svg',
   },
   {
     title: 'React Native Blueprints',
     author: 'Emilio Rodriguez Martinez',
     imgURL:
-      'https://dz13w8afd47il.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B06647.png',
+      'https://d3bxy9euw4e147.cloudfront.net/oscms-dev/media/documents/prealgebra_1.svg',
   },
   {
     title: 'React Design Patterns and Best Practices',
     author: 'Michele Bertoli',
     imgURL:
-      'https://d255esdrn735hr.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/4538cov_.jpg',
+      'https://d3bxy9euw4e147.cloudfront.net/oscms-dev/media/documents/prealgebra_1.svg',
   },
   {
     title: 'React Native Cookbook',
     author: 'Crysfel Villa, Stan Bershadskiy',
     imgURL:
-      'https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/2558_5549_React%20Native%20Cookbook.png',
+      'https://d3bxy9euw4e147.cloudfront.net/oscms-dev/media/documents/prealgebra_1.svg',
   },
   {
     title: 'React Native By Example',
     author: 'Richard Kho',
     imgURL:
-      'https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B05604.png',
+      'https://d3bxy9euw4e147.cloudfront.net/oscms-dev/media/documents/prealgebra_1.svg',
   },
 ];
 
