@@ -11,7 +11,7 @@ const BOOKS = [
     title: 'Getting Started with React VR',
     author: 'John Gwinner',
     imgURL:
-        'https://d3bxy9euw4e147.cloudfront.net/oscms-dev/media/documents/prealgebra_1.svg',
+      'https://d3bxy9euw4e147.cloudfront.net/oscms-dev/media/documents/prealgebra_1.svg',
   },
   {
     title: 'React Native Blueprints',

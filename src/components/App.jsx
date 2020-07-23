@@ -9,6 +9,7 @@ import {
 import logo from '../logo.svg';
 import './App.css';
 import Home from './home';
+import NewBook from './newBook';
 
 function App(props) {
   const { title } = props;
@@ -37,7 +38,12 @@ function App(props) {
           </nav>
           <section>
             <Switch>
-              <Route exact path="/" component={Home} />
+              <Route exact path="/" component={Home} />{' '}
+              <Route
+                exact
+                path="/new"
+                component={NewBook}
+              />
             </Switch>
           </section>
         </section>
